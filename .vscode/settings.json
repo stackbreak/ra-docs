@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": false,
+  "eslint.enable": true,
+  "tslint.enable": false,
+  "flow.enabled": false,
+  "[markdown]": {
+    "editor.formatOnSave": false
+  }
+}

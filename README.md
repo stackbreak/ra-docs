@@ -1,3 +1,3 @@
-# RA DOCS
+# RA-DOCS
 
 ## Test
