@@ -1,0 +1,25 @@
+{
+  "name": "ra-docs",
+  "description": "Static Documentation Generator with Rambler styleguides",
+  "version": "0.1.0",
+  "author": "Max Stackbreak",
+  "keywords": [
+    "documentation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackbreak/ra-docs.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stackbreak/ra-docs/issues"
+  },
+  "homepage": "https://github.com/stackbreak/ra-docs#readme",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
