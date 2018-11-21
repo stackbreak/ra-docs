@@ -1,0 +1,10 @@
+.layout {
+  display: stacks;
+  color: rgb(12, 12, 12);
+  border: 1px solid #ffffff98;
+}
+
+.contentBox {
+  padding-left: 300px;
+  width: 100%;
+}

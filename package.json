@@ -16,8 +16,15 @@
   },
   "homepage": "https://github.com/stackbreak/ra-docs#readme",
   "dependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
     "gatsby": "^2.0.50",
     "gatsby-image": "^2.0.20",
+    "gatsby-plugin-catch-links": "^2.0.8",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-no-sourcemaps": "^2.0.1",
     "gatsby-plugin-offline": "^2.0.15",
@@ -32,18 +39,46 @@
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-remark": "^2.1.12",
     "gatsby-transformer-sharp": "^2.1.8",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "path": "^0.12.7",
     "prettier": "^1.15.2",
     "prismjs": "^1.15.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
-    "sanitize.css": "^8.0.0"
+    "sanitize.css": "^8.0.0",
+    "stylelint": "^9.8.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-config-standard": "^18.2.0"
   },
   "scripts": {
+    "start": "gatsby develop --port 4000",
     "build": "gatsby build",
-    "develop": "gatsby develop --port 4000",
-    "start": "npm run develop",
-    "format": "prettier --write \"src/**/*.js\"",
+    "format:js": "prettier --write '**/*.{js,jsx}' ",
+    "lint:js": "eslint --fix '**/*.{js,jsx}'",
+    "format:css": "prettier --write '**/*.css' ",
+    "lint:css": "stylelint --fix '**/*.css'",
+    "clean": "rm -rf public && rm -rf .cache",
+    "clean:all": "rm -rf node_modules && npm run clean",
+    "ci:lint": "npm run lint:css & npm run lint:js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "npm run format:js",
+      "npm run lint:js",
+      "git add"
+    ],
+    "*.css": [
+      "npm run format:css",
+      "npm run lint:css",
+      "git add"
+    ]
   }
 }

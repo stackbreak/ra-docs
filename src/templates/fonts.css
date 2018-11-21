@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'CorsicaRamblerLX';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://static.rambler.ru/fonts/CorsicaRamblerLX/medium.woff2')
+      format('woff2'),
+    url('https://static.rambler.ru/fonts/CorsicaRamblerLX/medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'CorsicaRamblerLX';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://static.rambler.ru/fonts/CorsicaRamblerLX/regular.woff2')
+      format('woff2'),
+    url('https://static.rambler.ru/fonts/CorsicaRamblerLX/regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://static.rambler.ru/fonts/Roboto/bold.woff2') format('woff2'),
+    url('https://static.rambler.ru/fonts/Roboto/bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://static.rambler.ru/fonts/Roboto/light.woff2') format('woff2'),
+    url('https://static.rambler.ru/fonts/Roboto/light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://static.rambler.ru/fonts/Roboto/medium.woff2') format('woff2'),
+    url('https://static.rambler.ru/fonts/Roboto/medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://static.rambler.ru/fonts/Roboto/regular.woff2') format('woff2'),
+    url('https://static.rambler.ru/fonts/Roboto/regular.woff') format('woff');
+}

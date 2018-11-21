@@ -1,0 +1,18 @@
+{
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "plugins": ["react", "jsx-a11y", "import"],
+  "parser": "babel-eslint",
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "react/prop-types": "off",
+    "react/prefer-stateless-function": "off",
+    "react/destructuring-assignment": "off"
+  }
+}
