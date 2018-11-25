@@ -1,0 +1,8 @@
+.layout {
+  display: flex;
+}
+
+.contentBox {
+  padding-left: 270px;
+  width: 100%;
+}

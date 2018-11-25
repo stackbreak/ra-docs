@@ -1,0 +1,10 @@
+.container {
+  width: 270px;
+  min-width: 270px;
+  background-color: rgb(46, 52, 68);
+  color: white;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

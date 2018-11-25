@@ -1,6 +1,6 @@
 {
   "name": "ra-docs",
-  "description": "Static Documentation Generator with Rambler styleguides",
+  "description": "Static Documentation Generator",
   "version": "0.1.0",
   "author": "Max Stackbreak",
   "keywords": [
@@ -15,6 +15,10 @@
     "url": "https://github.com/stackbreak/ra-docs/issues"
   },
   "homepage": "https://github.com/stackbreak/ra-docs#readme",
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ],
   "dependencies": {
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -50,7 +54,7 @@
     "sanitize.css": "^8.0.0",
     "stylelint": "^9.8.0",
     "stylelint-config-prettier": "^4.0.0",
-    "stylelint-config-standard": "^18.2.0"
+    "stylelint-config-recommended": "^2.1.0"
   },
   "scripts": {
     "start": "gatsby develop --port 4000",

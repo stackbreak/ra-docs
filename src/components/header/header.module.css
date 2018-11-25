@@ -1,0 +1,19 @@
+.container {
+  background-color: rgb(52, 59, 76);
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1);
+  color: rgb(255, 255, 255);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 1.2rem;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-family: 'CorsicaRamblerLX', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 2px;
+}

@@ -13,6 +13,9 @@
     "no-unused-vars": "warn",
     "react/prop-types": "off",
     "react/prefer-stateless-function": "off",
-    "react/destructuring-assignment": "off"
+    "react/destructuring-assignment": "off",
+    "no-restricted-syntax": "off",
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": "off"
   }
 }

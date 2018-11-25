@@ -1,9 +1,11 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
-import Layout from 'components/layout';
+// - - -
+import { Layout } from 'components/layout';
 import config from 'config';
-import './b16-tomorrow-dark.css';
+// - - -
+import './prism-theme.css';
 
 export default class PostTemplate extends React.Component {
   render() {

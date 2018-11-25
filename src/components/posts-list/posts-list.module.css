@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 2rem;
+}
+
+.item a,
+.item a:hover {
+  border: none;
+}
+
+.link {
+  margin: 0;
+  color: #262626;
+  transition: color 0.1s linear;
+}
+
+.link:hover {
+  color: #315efb;
+}
+
+.link::before {
+  content: '#';
+  margin-right: 1rem;
+  color: #315efb;
+}
+
+.date {
+  color: #c6cad8;
+  font-size: 1rem;
+}

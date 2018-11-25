@@ -20,7 +20,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const filePath = createFilePath({ node, getNode, basePath: `posts` });
     const splitedPath = filePath.split('/');
 
-    const slug = `${splitedPath[1].slice(4)}/${splitedPath[2].slice(4)}`;
+    const slug = `${splitedPath[1]}/${splitedPath[2].slice(4)}`;
     const order = splitedPath[2].substr(0, 2);
     const section = splitedPath[1];
 
