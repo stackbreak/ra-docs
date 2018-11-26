@@ -10,7 +10,7 @@ This project is a simple static documentation generator from markdown articles. 
 
 ## Main Goal
 
-I really like [ReactJS Documentation](https://reactjs.org/docs/getting-started.html) and I was long ago impressed by idea to keep data as **Markdown** _(without database)_, so I decide to create my own simple app.
+I really like [ReactJS Documentation](https://reactjs.org/docs/getting-started.html) and I was impressed long ago by idea to keep data as **Markdown** _(without database)_, so It was decided to create my own similar handy app.
 
 ## Features
 
@@ -42,3 +42,4 @@ This is non-production beta! Work still in progress...
 - [ ] Mobile support
 - [ ] Css-in-JS for styling
 - [ ] Search include
+- [ ] ...
