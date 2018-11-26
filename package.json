@@ -1,7 +1,7 @@
 {
   "name": "ra-docs",
-  "description": "Static Documentation Generator",
-  "version": "0.1.0",
+  "description": "Static Single-Page Documentation App",
+  "version": "0.2.1",
   "author": "Max Stackbreak",
   "keywords": [
     "documentation"
