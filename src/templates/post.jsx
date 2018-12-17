@@ -1,11 +1,17 @@
+/* ========================================================================== */
+/*                                POST TEMPLATE                               */
+/* ========================================================================== */
+
 import React from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
-// - - -
+
 import { Layout } from 'components/layout';
 import config from 'config';
-// - - -
+
 import './prism-theme.css';
+
+///
 
 export default class PostTemplate extends React.Component {
   render() {
@@ -28,7 +34,6 @@ export default class PostTemplate extends React.Component {
   }
 }
 
-/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {

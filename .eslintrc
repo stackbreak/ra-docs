@@ -16,6 +16,7 @@
     "react/destructuring-assignment": "off",
     "no-restricted-syntax": "off",
     "import/prefer-default-export": "off",
-    "class-methods-use-this": "off"
+    "class-methods-use-this": "off",
+    "spaced-comment": "off"
   }
 }

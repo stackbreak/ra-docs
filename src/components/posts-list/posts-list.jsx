@@ -1,7 +1,13 @@
+/* ========================================================================== */
+/*                               ALL POSTS LIST                               */
+/* ========================================================================== */
+
 import React from 'react';
 import { Link } from 'gatsby';
-// - - -
+
 import css from './posts-list.module.css';
+
+///
 
 export default class extends React.Component {
   getDateView(timestamp) {

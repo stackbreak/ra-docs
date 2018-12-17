@@ -1,11 +1,15 @@
+/* ========================================================================== */
+/*                                  MENU LIST                                 */
+/* ========================================================================== */
+
 import React from 'react';
 import { Link } from 'gatsby';
-// - - -
+
 import { sections } from 'posts/sections';
-// - - -
+
 import css from './nav-menu.module.css';
 
-/* STRUCTURE COMPOSER */
+/* --------------------------- Structure Composer --------------------------- */
 
 const getPostsByCategories = edges => {
   const categories = {};
@@ -32,7 +36,7 @@ const getPostsByCategories = edges => {
   return postsByCategories;
 };
 
-/* RENDER */
+/* --------------------------------- Render --------------------------------- */
 
 export default ({ postEdges, currentSlug }) => {
   const postsByCategories = getPostsByCategories(postEdges);

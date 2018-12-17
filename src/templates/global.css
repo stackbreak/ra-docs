@@ -1,3 +1,7 @@
+/* ========================================================================== */
+/*                                GLOBAL STYLES                               */
+/* ========================================================================== */
+
 html {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -11,7 +15,7 @@ p {
   margin: 1.6rem 0;
 }
 
-/* HEADERS */
+/* --------------------------------- Headers -------------------------------- */
 
 h1,
 h2,
@@ -63,7 +67,7 @@ h1 {
   border-left: 4px solid #315efb;
 }
 
-/* LINKS */
+/* ---------------------------------- Links --------------------------------- */
 
 a {
   text-decoration: none;
@@ -85,7 +89,7 @@ a.gatsby-resp-image-link:hover {
   border-bottom: 1px dashed transparent;
 }
 
-/* BLOCKQUOTE */
+/* ------------------------------- Blockquote ------------------------------- */
 
 blockquote {
   margin: 0;
@@ -98,6 +102,8 @@ blockquote p {
   margin: 1rem 0;
 }
 
+/* --------------------------------- Tables --------------------------------- */
+
 table {
   display: table;
   width: 100%;
@@ -107,8 +113,6 @@ table {
   border-collapse: separate;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.05);
 }
-
-/* TABLES */
 
 th,
 td {

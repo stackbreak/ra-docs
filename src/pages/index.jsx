@@ -1,10 +1,16 @@
+/* ========================================================================== */
+/*                               APP ENTRY POINT                              */
+/* ========================================================================== */
+
 import React from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
-// - - -
+
 import config from 'config';
 import Layout from 'components/layout/layout';
 import { PostsList } from 'components/posts-list';
+
+///
 
 export default ({ data }) => {
   const postEdges = data.allMarkdownRemark.edges;

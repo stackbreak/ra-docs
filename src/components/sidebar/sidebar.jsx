@@ -1,10 +1,16 @@
+/* ========================================================================== */
+/*                                SIDEBAR BLOCK                               */
+/* ========================================================================== */
+
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
-// - - -
+
 import { Header } from 'components/header';
 import { NavMenu } from 'components/nav-menu';
-// - - -
+
 import css from './sidebar.module.css';
+
+///
 
 const query = graphql`
   query {

@@ -1,7 +1,11 @@
+/* ========================================================================== */
+/*                              GATSBY LIFECYCLE                              */
+/* ========================================================================== */
+
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const path = require('path');
 
-/* WEBPACK */
+/* --------------------------------- Webpack -------------------------------- */
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig({
@@ -11,7 +15,7 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
   });
 };
 
-/* PIPE */
+/* ---------------------------------- Pipe ---------------------------------- */
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;

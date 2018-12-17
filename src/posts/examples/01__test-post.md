@@ -38,12 +38,12 @@ John Gruber, the author of Markdown, puts it like this:
 ```jsx
 import React from 'react';
 import { Link } from 'gatsby';
-// - - -
+
 import { sections } from 'posts/sections';
-// - - -
+
 import css from './nav-menu.module.css';
 
-/* STRUCTURE COMPOSER */
+
 
 const getPostsByCategories = edges => {
   const categories = {};
@@ -70,7 +70,7 @@ const getPostsByCategories = edges => {
   return postsByCategories;
 };
 
-/* RENDER */
+
 
 export default ({ postEdges, currentSlug }) => {
   const postsByCategories = getPostsByCategories(postEdges);
@@ -98,7 +98,6 @@ export default ({ postEdges, currentSlug }) => {
     </nav>
   );
 };
-
 ```
 
 ## Image Sample
