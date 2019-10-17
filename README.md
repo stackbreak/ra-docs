@@ -10,7 +10,7 @@ This project is a simple static documentation generator from markdown articles. 
 
 ## Main Goal
 
-It was experemental boilerplate for usage in company inner projects. At the moment fork of this app is growing up and used in company.
+It was experemental boilerplate for usage in our company inner projects. At the moment fork of this app is growing up and used in company.
 
 ## Features
 
