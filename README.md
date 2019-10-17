@@ -6,21 +6,18 @@
 
 ## About
 
-This project is a simple static documentation generator from markdown articles. It uses React components and build dynamic SPA as output.
+This project is a simple static documentation generator from markdown articles. It uses React components and build dynamic SPA as output. 
 
 ## Main Goal
 
-I really like [ReactJS Documentation](https://reactjs.org/docs/getting-started.html) and I was impressed long ago by idea to keep data as **Markdown** _(without database)_, so It was decided to create my own similar handy app.
+It was experemental boilerplate for usage in company inner projects. At the moment fork of this app is growing app and used in company.
 
 ## Features
 
 - [x] Built with React
-- [x] Blazing fast
 - [x] May be hosted on static hosts
 - [x] Easy to maintain content by everyone in team
-- [x] VCS
-- [x] Beauty and clean
-- [ ] Something else ???
+
 
 ## Getting Started
 
@@ -35,11 +32,4 @@ npm run start
 
 ## Attention
 
-This is non-production beta! Work still in progress...
-
-### TODO:
-
-- [ ] Mobile support
-- [ ] Css-in-JS for styling
-- [ ] Search include
-- [ ] ...
+It is non-production solution! It will not be supported! 
