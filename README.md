@@ -6,11 +6,11 @@
 
 ## About
 
-This project is a simple static documentation generator from markdown articles. It uses React components and build dynamic SPA as output. 
+This project is a simple static site generator from markdown files. It uses React components and generates the dynamic SPA as output. 
 
-## Main Goal
+## Why
 
-It was experemental boilerplate for usage in our company inner projects. At the moment fork of this app is growing up and used in company.
+It was an experimental boilerplate for usage in inner projects of our company. At the moment fork of this app is growing up and used in production.
 
 ## Features
 
@@ -32,4 +32,4 @@ npm run start
 
 ## Attention
 
-It is non-production solution! It will not be supported! 
+**It is a non-production solution! It will not be supported!** 
